@@ -68,12 +68,13 @@ body {
   color: #ccf282;
   font-weight: 700;
   font-size: 2rem;
+  margin-bottom: 20px;
 }
 .important_paragraph {
   font-weight: 500;
   font-size: 1.2rem;
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 .important_btn {
   padding: 5px 10px;
