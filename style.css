@@ -55,12 +55,14 @@ body {
 .important_hello {
   color: white;
   font-size: 1.8rem;
+  margin-bottom: 10px;
 }
 .important_name {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   color: #ccf282;
   font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 .important_developer {
   color: #ccf282;
@@ -71,6 +73,7 @@ body {
   font-weight: 500;
   font-size: 1.2rem;
   color: white;
+  margin-bottom: 20px;
 }
 .important_btn {
   padding: 5px 10px;
