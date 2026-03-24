@@ -28,8 +28,8 @@ body {
 }
 .white_line {
   position: absolute;
-  top: 220px;
-  right: 260px;
+  top: 20px;
+  right: -20px;
   width: 200px;
   height: 200px;
   border: 1.5px solid white;
