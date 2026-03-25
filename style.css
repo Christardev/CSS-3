@@ -132,3 +132,190 @@ body {
   height: 3px;
   margin-top: 50px;
 }
+
+/* Responsive media queries */
+
+/* Desktop: up to 1200px */
+@media (max-width: 1200px) {
+  .subcontainer {
+    width: 85%;
+  }
+
+  .important_name {
+    font-size: 2.2rem;
+  }
+
+  .important_developer {
+    font-size: 1.8rem;
+  }
+
+  .important_paragraph {
+    font-size: 1.1rem;
+  }
+
+  .avatar {
+    width: 180px;
+  }
+}
+
+/* Laptop: up to 1024px */
+@media (max-width: 1024px) {
+  .subcontainer {
+    width: 92%;
+  }
+
+  .images {
+    position: static;
+    width: auto;
+    margin: 30px auto 0;
+    text-align: center;
+  }
+
+  .important {
+    text-align: center;
+  }
+
+  .avatar {
+    width: 160px;
+  }
+
+  .important_name {
+    font-size: 2rem;
+  }
+
+  .important_developer {
+    font-size: 1.6rem;
+  }
+
+  .important_paragraph {
+    font-size: 1rem;
+  }
+
+  .footer_paragraph {
+    right: 40px;
+    font-size: 11px;
+  }
+
+  .icon_top,
+  .sub_icon_top {
+    right: 40px;
+  }
+  .white_line {
+    display: none;
+  }
+  .pattern {
+    display: none;
+  }
+  .subcontainer {
+    background-color: #4731d4;
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+/* Tablet: up to 768px */
+@media (max-width: 768px) {
+  .subcontainer {
+    width: 98%;
+    padding: 25px 10px;
+  }
+
+  .important_name {
+    font-size: 1.8rem;
+  }
+
+  .important_developer {
+    font-size: 1.4rem;
+  }
+
+  .important_paragraph {
+    font-size: 0.95rem;
+  }
+
+  .important_btn {
+    width: 90%;
+    max-width: 260px;
+  }
+
+  .avatar {
+    width: 140px;
+  }
+
+  .images {
+    bottom: auto;
+    left: auto;
+  }
+
+  .footer_paragraph,
+  .icon_top,
+  .sub_icon_top {
+    position: static;
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+  }
+  .white_line {
+    display: none;
+  }
+  .pattern {
+    display: none;
+  }
+  .subcontainer {
+    background-color: #4731d4;
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+/* Phone: up to 480px */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .important_hello {
+    font-size: 1.5rem;
+  }
+
+  .important_name {
+    font-size: 1.6rem;
+  }
+
+  .important_developer {
+    font-size: 1.2rem;
+  }
+
+  .important_paragraph {
+    font-size: 0.9rem;
+  }
+
+  .avatar {
+    width: 120px;
+  }
+
+  .dev_icon {
+    width: 60px;
+    margin: 20px;
+  }
+
+  .important_btn {
+    font-size: 0.95rem;
+    padding: 8px 16px;
+  }
+
+  .subcontainer {
+    height: auto;
+    min-height: 100vh;
+  }
+  .white_line {
+    display: none;
+  }
+  .pattern {
+    display: none;
+  }
+  .subcontainer {
+    background-color: #4731d4;
+    width: 100%;
+    height: 100vh;
+  }
+}
